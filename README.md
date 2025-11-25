@@ -1,1 +1,87 @@
 # Traffic-Sign-Detection-and-Recognition-using-Deep-Learning
+🔍 Overview
+
+This project implements a traffic sign detection and recognition system using deep learning architectures (CNN, LeNet, AlexNet) on the GTSRB dataset. It was completed as part of a master's degree coursework.
+
+🎯 Objectives
+
+Classify German traffic signs with high accuracy
+
+Compare the performance of different CNN variants
+
+Apply data augmentation to improve model generalization
+
+Evaluate performance metrics: Accuracy, Precision, Recall, F1-score
+
+🧠 Models Used
+
+Custom CNN with Augmentation
+
+LeNet
+
+AlexNet
+
+🙋‍♂️ My Role 
+
+As part of Group 16, my responsibility corresponded to T1 – Descriptive Analysis of the Dataset and Result Analysis.
+I was primarily involved in:
+
+🔹 Descriptive Analysis of the Dataset (EDA)
+
+Examined the structure and characteristics of the GTSRB dataset
+
+Performed class distribution analysis to identify imbalances
+
+Visualized sample images from different classes
+
+Analyzed brightness, contrast, and aspect ratio variations
+
+Detected outliers (size-based, brightness-based)
+
+Conducted feature-based analysis such as edge detection
+
+🔹 Result Analysis
+
+Interpreted model performance (Accuracy, Precision, Recall, F1-score)
+
+Compared the strengths and limitations of CNN, LeNet, and AlexNet
+
+Evaluated generalization capability and training/inference trade-offs
+
+Summarized how preprocessing choices and data characteristics impacted results
+
+📊 Dataset
+
+GTSRB — German Traffic Sign Recognition Benchmark
+
+50,000+ images
+
+43 classes
+
+Real-world variations in lighting, scale, rotations, occlusions
+
+🧪 Results
+Model	Accuracy
+CNN + Augmentation	96.90%
+LeNet	94.11%
+AlexNet	95.27%
+
+🛠 Technologies Used
+
+Python, TensorFlow, Keras
+OpenCV, NumPy, Pandas, Seaborn
+Google Colab
+
+📁 Files
+
+G16_Code.ipynb – Model training and evaluation
+
+G16_Report.pdf – Full project report
+
+README.md – Instructions and overview
+
+📌 How to Run
+
+Install the required dependencies:
+
+pip install numpy pandas matplotlib seaborn tensorflow scikit-learn opencv-python
